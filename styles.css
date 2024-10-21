@@ -1,0 +1,265 @@
+* {box-sizing: border-box;}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #b14721;
+}
+
+body, html {
+  height: 100%;
+}
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #e9e9e9;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #f59494;
+  color: black;
+}
+
+.topnav a.home {
+  background-color: #2196F3;
+  color: white;
+}
+
+.topnav .search-container {
+  float: right;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav .search-container {
+    float: none;
+  }
+  .topnav a, .topnav input[type=text], .topnav .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+}
+
+.bottomnav {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.home-hero-text {
+  text-align: center;
+  margin: 15px;
+}
+.germany-hero-image {
+  background-image: url("images/zugspitze.jpg");
+  height: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.japan-hero-image {
+background-image: url("images/family.jpg");
+height: 60%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+}
+
+.japan-hero-image, .kyoto-hero-image, .tokyo-hero-image, .germany-hero-image, 
+.zugspitze-hero-image, .holy-island-hero-image, .york-hero-image,
+.hwall-hero-image, .england-hero-image, .wales-hero-image, .inverness-hero-image,
+.lochness-hero-image, .liech-hero-image {
+  height: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.country {
+  margin-left: 15px;
+}
+
+h1 {
+  font-family: initial;
+  font-size: 50px;
+  color: #ffffff;
+  text-shadow: 3px 3px rgb(74, 73, 73);
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  padding: 20px;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.japan-images, .food-images {
+  max-height: 740px;
+  min-height: 740px;
+}
+
+.germany-images {
+  max-height: 450px;
+}
+
+.england-images, .germany2-images {
+  max-height: 700px;
+}
+
+.england2-images, .wales-images {
+  max-height: 450px;
+}
+
+hr {
+  color: rgb(255, 255, 255);
+}
+
+
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+.slideshow-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.slideshow-column {
+  float: left;
+  margin: 2px;
+  width: 6%;
+}
+.demo {
+  opacity: 0.6;
+}
+.active, .demo:hover {
+  opacity: 1;
+}
+
+.food {
+  text-align: center;
+}
+
+.slideshow {
+  max-width: 550px;
+  margin-left: 33.33%;
+}
+
+/* Top right text */
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  padding-left: 30px;
+  max-width: 500px;
+  font-size: 30px;
+}
