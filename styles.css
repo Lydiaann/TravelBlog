@@ -1,4 +1,4 @@
-* {box-sizing: border-box;}
+/* * {box-sizing: border-box;}
 
 body {
   margin: 0;
@@ -169,22 +169,22 @@ h2 {
 
 hr {
   color: rgb(255, 255, 255);
-}
+} */
 
 
 
 /* Position the image container (needed to position the left and right arrows) */
-.container {
+/* .container {
   position: relative;
-}
+} */
 
 /* Hide the images by default */
-.mySlides {
+/* .mySlides {
   display: none;
-}
+} */
 
 /* Next & previous buttons */
-.prev,
+/* .prev,
 .next {
   cursor: pointer;
   position: absolute;
@@ -198,29 +198,29 @@ hr {
   border-radius: 0 3px 3px 0;
   user-select: none;
   -webkit-user-select: none;
-}
+} */
 
 /* Position the "next button" to the right */
-.next {
+/* .next {
   right: 0;
   border-radius: 3px 0 0 3px;
-}
+} */
 /* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
+/* .prev:hover, .next:hover {
   background-color: rgba(0, 0, 0, 0.8);
-}
+} */
 
 /* Number text (1/3 etc) */
-.numbertext {
+/* .numbertext {
   color: #f2f2f2;
   font-size: 12px;
   padding: 8px 12px;
   position: absolute;
   top: 0;
-}
+} */
 
 /* Container for image text */
-.caption-container {
+/* .caption-container {
   text-align: center;
   background-color: #222;
   padding: 2px 16px;
@@ -230,10 +230,10 @@ hr {
   content: "";
   display: table;
   clear: both;
-}
+} */
 
 /* Six columns side by side */
-.slideshow-column {
+/* .slideshow-column {
   float: left;
   margin: 2px;
   width: 6%;
@@ -252,10 +252,10 @@ hr {
 .slideshow {
   max-width: 550px;
   margin-left: 33.33%;
-}
+} */
 
 /* Top right text */
-.top-left {
+/* .top-left {
   position: absolute;
   top: 8px;
   left: 16px;
@@ -309,4 +309,4 @@ margin: 15px;
   background-size: cover;
   position: relative;
   margin: 15px;
-}
+} */
