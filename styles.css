@@ -95,13 +95,12 @@ body {
   margin: 0;
 } 
 .topnav a:hover, .subnav:hover .subnavbtn {
-  background-color: blue;
+  background-color: gray;
 }
 .subnav-content {
   display: none;
   position: absolute;
   left: 0;
-  background-color: pink;
   width: 100%;
   z-index: 1;
 }
