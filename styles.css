@@ -100,9 +100,10 @@ body {
   display: none;
   position: absolute;
   left: 0;
+  background-color: pink;
   width: 80%;
   z-index: 1;
-  background-color: darkblue;
+ 
 }
 
 .subnav-content a {
